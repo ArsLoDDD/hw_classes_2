@@ -51,6 +51,7 @@ userUser.getFullName();
 console.log(userUser.getCourse());
 
 const group = new Group("Main group", [
+    ,
   new Student("Sally ", "Lee", 2018),
   new Student("Murray ", "Patel", 2020),
   new Student("Ray  ", "Keith", 2020),
@@ -59,6 +60,7 @@ const group = new Group("Main group", [
   new Student("Harrison ", "Fischer ", 2021),
   new Student("Audrey ", "Woodward", 2022),
   new Student("Ester ", "Michael", 2020),
+  ,
 ]);
 console.log(userUser.getCourse(user));
 console.log(group.showStudents());
